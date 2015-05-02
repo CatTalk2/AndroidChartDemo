@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_linechart"
+            android:text="@string/linechart"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="#8CEBFF"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_barchart"
+            android:text="@string/barchart"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:background="#8CEBFF"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_horizontalchart"
+        android:text="@string/horizontalchart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#C5FF8C"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_combinedchart"
+        android:text="@string/combinedchart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_piechart"
+        android:text="@string/piechart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_scatterchart"
+        android:text="@string/scatterchart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_candlechart"
+        android:text="@string/candlechart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_radarchart"
+        android:text="@string/radarchart"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:background="#FF6600"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

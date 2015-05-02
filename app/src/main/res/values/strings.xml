@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidChart</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- 各个button-->
+    <string name="linechart">线性图表</string>
+    <string name="combinedchart">混合图表</string>
+    <string name="barchart">柱状图</string>
+    <string name="horizontalchart">水平柱状图</string>
+    <string name="piechart">饼图</string>
+    <string name="scatterchart">散列图</string>
+    <string name="candlechart">蜡烛图</string>
+    <string name="radarchart">雷达海图</string>
+
+
+</resources>
